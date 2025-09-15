@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+                                                              /* Navbar */
+.nav-link{
+  margin-left: 37px; 
+  font-size: 93%; 
+  color:gray;  
+}
+.navbar-brand{
+  margin-left: 50px;
+}
+.nav-link:hover{
+  color: blueviolet;
+}
+
+                                                              /* Footer */
+.fa.fa-twitter{
+	font-family:sans-serif;
+}
+.fa.fa.fa-x-twitter::before{
+	content:"𝕏";
+	font-size:1.2em;
+}
+.social{
+  margin-left: 50px;
+  font-size: xx-small;
+}
+.social a{
+  margin-right: 25px;
+  font-size:21px;
+  color: gray;
+   text-decoration: none;
+}
+.social a:hover{
+   color: blue;
+}
+.fa.fa-youtube-play:hover{
+  color: red;
+}
+.fa.fa-whatsapp:hover{
+  color: greenyellow;
+}
+.footer-link{
+  text-decoration: none;
+  color: grey;
+  line-height: 2.5rem;
+}
+.footer-link:hover{
+  color: blueviolet;
+}
+                                                     /* Right Section */
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.right-section img {
+  max-width: 50%;
+  object-fit: contain;
+}
+                                                     /* Support/ Ticket */
+.ticket-link{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  margin: auto;
+  padding-bottom: 2rem;
+  
+}
+.ticket-link:hover{
+  color:blueviolet;
+}
+.nav-link-login{
+  margin-left: 37px; 
+  font-size: 93%; 
+  color:gray;  
+}
+.nav-link-login:hover{
+  background-color: blueviolet;
+}
