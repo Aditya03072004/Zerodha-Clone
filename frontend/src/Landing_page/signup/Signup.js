@@ -20,7 +20,7 @@ function Signup() {
       if (data.success) {
         setMessage('Signup successful! You can now login.');
         setTimeout(() => {
-          window.open('https://zerodha-clone-frontend-hrol.onrender.com/login', '_blank')
+          window.open('https://zerodha-clone-frontend-wia3.onrender.com/login', '_blank')
         }, 2000);
       } else {
         setMessage(data.message || 'Signup failed');
