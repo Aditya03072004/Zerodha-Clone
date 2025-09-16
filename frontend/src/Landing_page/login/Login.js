@@ -10,7 +10,7 @@ function Login() {
     e.preventDefault();
     setMessage('');
     try {
-      const response = await fetch('https://zerodha-clone-dashboard-gucq.onrender.com/login', {
+      const response = await fetch('https://zerodha-clone-1-vvhl.onrender.com/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
@@ -19,7 +19,7 @@ function Login() {
       if (data.success) {
         setMessage('Login successful!');
         // Open dashboard in new window/tab
-        window.open('http://localhost:3001', '_blank');
+        window.open('https://zerodha-clone-dashboard-gucq.onrender.com', '_blank');
       } else {
         setMessage(data.message || 'Login failed');
       }

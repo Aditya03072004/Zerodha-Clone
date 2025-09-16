@@ -11,7 +11,7 @@ function Signup() {
     e.preventDefault();
     setMessage('');
     try {
-      const response = await fetch('http://localhost:3002/signup', {
+      const response = await fetch('https://zerodha-clone-1-vvhl.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, username, password, createdAt: new Date() }),
