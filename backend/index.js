@@ -209,7 +209,7 @@ app.get("/allPositions", async(req, res) => {
 app.post('/signup', Signup);
 app.post('/login', Login);
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log("connected");
     mongoose.connect(uri);
     console.log("DB connected");
