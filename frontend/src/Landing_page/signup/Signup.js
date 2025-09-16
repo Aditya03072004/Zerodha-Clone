@@ -11,7 +11,7 @@ function Signup() {
     e.preventDefault();
     setMessage('');
     try {
-      const response = await fetch('https://zerodha-clone-1-vvhl.onrender.com', {
+      const response = await fetch('https://zerodha-clone-1-vvhl.onrender.com/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, username, password, createdAt: new Date() }),
@@ -20,7 +20,7 @@ function Signup() {
       if (data.success) {
         setMessage('Signup successful! You can now login.');
         setTimeout(() => {
-          window.open('http://localhost:3000/login', '_blank')
+          window.open('https://zerodha-clone-frontend-hrol.onrender.com/login', '_blank')
         }, 2000);
       } else {
         setMessage(data.message || 'Signup failed');
